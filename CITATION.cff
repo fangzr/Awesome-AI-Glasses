@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+message: "If you use this list or its figures, please cite the survey."
+title: "Awesome AI Glasses: AI Glasses as Lifelong Assistants"
+repository-code: "https://github.com/fangzr/Awesome-AI-Glasses"
+license: MIT
+authors:
+  - family-names: Fang
+    given-names: Zhengru
+  - family-names: Hu
+    given-names: Senkang
+  - family-names: Zhu
+    given-names: Yaoyu
+  - family-names: Liu
+    given-names: Zehao
+  - family-names: Li
+    given-names: Chenxi
+  - family-names: Wang
+    given-names: Xizhi
+  - family-names: Tsoi
+    given-names: Ming Yu
+  - family-names: Zhuang
+    given-names: Yufan
+  - family-names: Li
+    given-names: Junlong
+  - family-names: Guo
+    given-names: Yu
+  - family-names: Zhao
+    given-names: Enqi
+  - family-names: Zhu
+    given-names: Xuanrui
+  - family-names: Fang
+    given-names: Yuguang
+  - family-names: Zhang
+    given-names: Jun
+preferred-citation:
+  type: article
+  title: "AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution"
+  journal: "arXiv preprint"
+  year: 2026
+  authors:
+    - family-names: Fang
+      given-names: Zhengru
+    - family-names: Hu
+      given-names: Senkang
+    - family-names: Zhu
+      given-names: Yaoyu
+    - family-names: Liu
+      given-names: Zehao
+    - family-names: Li
+      given-names: Chenxi
+    - family-names: Wang
+      given-names: Xizhi
+    - family-names: Tsoi
+      given-names: Ming Yu
+    - family-names: Zhuang
+      given-names: Yufan
+    - family-names: Li
+      given-names: Junlong
+    - family-names: Guo
+      given-names: Yu
+    - family-names: Zhao
+      given-names: Enqi
+    - family-names: Zhu
+      given-names: Xuanrui
+    - family-names: Fang
+      given-names: Yuguang
+    - family-names: Zhang
+      given-names: Jun

@@ -1,0 +1,19 @@
+{
+  "_note": "Links verified by title against Crossref, arXiv, or the venue page on 2026-11-26 for references the automatic resolver missed.",
+  "schmidhuber07godel": { "doi": "10.1007/978-3-540-68677-4_7" },
+  "clusterfl21": { "doi": "10.1145/3458864.3467681" },
+  "neurosurgeon17": { "doi": "10.1145/3037697.3037698" },
+  "adamczyk04": { "doi": "10.1145/985692.985727" },
+  "mehrotra16": { "doi": "10.1145/2858036.2858566" },
+  "amershi19": { "doi": "10.1145/3290605.3300233" },
+  "melon22": { "doi": "10.1145/3498361.3538928" },
+  "koelle17": { "doi": "10.1145/3025453.3025749" },
+  "bonawitz17": { "doi": "10.1145/3133956.3133982" },
+  "bajcsy88": { "doi": "10.1109/5.5968" },
+  "tinytl20": { "arxiv": "2007.11622" },
+  "perfedavg20": { "arxiv": "2002.07948" },
+  "godelagent25": { "arxiv": "2410.04444" },
+  "hgm25": { "arxiv": "2510.21614" },
+  "sculley15debt": { "url": "https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems" },
+  "recl23": { "url": "https://www.usenix.org/conference/nsdi23/presentation/khani" }
+}

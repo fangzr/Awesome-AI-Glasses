@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+Thumbs.db
+# Intermediate files derived from the private manuscript sources
+data/extracted.json
+data/links_cache.json
