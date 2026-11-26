@@ -222,9 +222,21 @@ for (const ch of CATEGORIES) {
     const ks = [].concat(...sub.slots.map(keysFor)).filter((k) => !used.has(k));
     ks.forEach((k) => { used.add(k); sectionOf[k] = { chapter: plain(ch.title).replace(/^\S+\s/, ''), section: plain(sub.title) }; });
     const also = sub.resources ? [] : alsoDiscussed(sub.alsoSlots || sub.slots, new Set(ks));
+    if (sub.preface) {
+      const p = sub.preface;
+      toc.push(`  - [${plain(p.title)}](#${p.anchor})`);
+      parts.push(`### ${p.title}`, '');
+      if (p.lead) parts.push(p.lead, '');
+      if (p.figure) {
+        const fg = FIGURES[p.figure];
+        parts.push(`<p align="center"><img src="assets/${fg.file}" width="${fg.width || '100%'}" alt="${fg.alt}"></p>`, '');
+        parts.push(`<p align="center"><sub><b>${fg.label}.</b> ${fg.caption}</sub></p>`, '');
+      }
+    }
     if (!ks.length && !also.length) continue;
-    toc.push(`  - [${plain(sub.title)}](#${sub.anchor})${ks.length ? ` (${ks.length})` : ''}`);
-    parts.push(`### ${sub.title}`, '');
+    const level = sub.level || 3;
+    toc.push(`${' '.repeat(2 * (level - 2))}- [${plain(sub.title)}](#${sub.anchor})${ks.length ? ` (${ks.length})` : ''}`);
+    parts.push(`${'#'.repeat(level)} ${sub.title}`, '');
     if (sub.lead) parts.push(sub.lead, '');
     if (also.length) parts.push(`<sub>**${ks.length ? 'Also discussed here' : 'Discussed here (listed in other sections)'}:** ${also.map(linkShort).join(' · ')}</sub>`, '');
     if (ks.length) parts.push(sub.resources ? resourceList(ks) : paperTable(ks), '');

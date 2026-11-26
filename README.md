@@ -80,11 +80,12 @@ Each paper below appears once, under the subsection where the survey discusses i
   - [Background and Motivation](#intro) (2)
   - [II-A. AI Glasses and Related First-Person Platforms](#platforms) (8)
   - [II-B. Key Concepts: Adaptation, Personalization, and Self-Improvement](#concepts) (16)
-  - [II-C1. Personal Memory and Everyday Assistance](#app-memory)
-  - [II-C2. Proactive Assistance and Interaction Timing](#app-proactive) (2)
-  - [II-C3. Accessibility and Personal Perception](#app-access) (1)
-  - [II-C4. Procedural and Spatial Guidance](#app-guidance) (2)
-  - [II-C5. Behavioral Support and Longitudinal Interaction](#app-behavior) (1)
+  - [II-C. Applications and Derived Requirements](#applications)
+    - [II-C1. Personal Memory and Everyday Assistance](#app-memory)
+    - [II-C2. Proactive Assistance and Interaction Timing](#app-proactive) (2)
+    - [II-C3. Accessibility and Personal Perception](#app-access) (1)
+    - [II-C4. Procedural and Spatial Guidance](#app-guidance) (2)
+    - [II-C5. Behavioral Support and Longitudinal Interaction](#app-behavior) (1)
 - [👁️ III. First-Person Sensing and Perception](#sensing)
   - [Representative Commercial AI Glasses (Table II)](#products)
   - [III-A. What First-Person Streams Record and Miss](#sense-observe) (5)
@@ -221,11 +222,19 @@ How this survey relates to neighboring surveys on egocentric vision, AI glasses,
 | **[Lifelong Robot Learning](https://doi.org/10.1016/0921-8890(95)00004-y)**<br><sub>Thrun et al.</sub> | Robot. Auton. Syst. 1995 | [Paper](https://doi.org/10.1016/0921-8890(95)00004-y) |
 | **[Speculations Concerning the First Ultraintelligent Machine](https://doi.org/10.1016/s0065-2458(08)60418-0)**<br><sub>Good</sub> | Advances in Computers 1966 | [Paper](https://doi.org/10.1016/s0065-2458(08)60418-0) |
 
-### <a id="app-memory"></a>II-C1. Personal Memory and Everyday Assistance
+### <a id="applications"></a>II-C. Applications and Derived Requirements
+
+Five application families and what each demands of sensing, memory, and learning. Works are cross-referenced to the subsection where they are listed.
+
+<p align="center"><img src="assets/fig3_applications.png" width="100%" alt="Applications"></p>
+
+<p align="center"><sub><b>Fig. 3.</b> Applications of lifelong wearable intelligence: personal memory, proactive assistance, accessibility, guidance, and behavioral support. Conceptual workflows, not reported deployments.</sub></p>
+
+#### <a id="app-memory"></a>II-C1. Personal Memory and Everyday Assistance
 
 <sub>**Discussed here (listed in other sections):** [Memoro](https://doi.org/10.1145/3613904.3642450) · [OmniQuery](https://doi.org/10.1145/3706598.3713448) · [EgoLife](https://doi.org/10.1109/cvpr52734.2025.02690) · [LightMem-Ego](https://arxiv.org/abs/2607.11487) · [EgoCITE](https://arxiv.org/abs/2608.12627) · [GROVE](https://arxiv.org/abs/2608.02392) · [Keep It in Mind](https://arxiv.org/abs/2606.15200) · [EgoSelf](https://arxiv.org/abs/2604.19564) · [Zou et al.](https://arxiv.org/abs/2605.31075)</sub>
 
-### <a id="app-proactive"></a>II-C2. Proactive Assistance and Interaction Timing
+#### <a id="app-proactive"></a>II-C2. Proactive Assistance and Interaction Timing
 
 <sub>**Also discussed here:** [Zhang et al.](https://doi.org/10.18653/v1/2025.emnlp-main.605) · [Eyes Wide Open](https://doi.org/10.52202/085713-0453) · [EgoPro-Bench](https://arxiv.org/abs/2605.07299) · [Vinci2](https://arxiv.org/abs/2607.11523)</sub>
 
@@ -234,7 +243,7 @@ How this survey relates to neighboring surveys on egocentric vision, AI glasses,
 | **[Satori: Towards Proactive AR Assistant with Belief-Desire-Intention User Modeling](https://doi.org/10.1145/3706598.3714188)**<br><sub>Li et al.</sub> | CHI 2025 | [![arXiv](https://img.shields.io/badge/arXiv-2410.16668-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2410.16668) [Paper](https://doi.org/10.1145/3706598.3714188) |
 | **[Principles of Mixed-Initiative User Interfaces](https://doi.org/10.1145/302979.303030)**<br><sub>Horvitz</sub> | CHI 1999 | [Paper](https://doi.org/10.1145/302979.303030) |
 
-### <a id="app-access"></a>II-C3. Accessibility and Personal Perception
+#### <a id="app-access"></a>II-C3. Accessibility and Personal Perception
 
 <sub>**Also discussed here:** [ORBIT](https://doi.org/10.1109/iccv48922.2021.01064) · [MyVLM](https://doi.org/10.1007/978-3-031-72624-8_5) · [Yo'LLaVA](https://doi.org/10.52202/079017-1294) · [RAP](https://doi.org/10.1109/cvpr52734.2025.01355) · [Xu et al.](https://doi.org/10.1145/3491102.3501904) · [Kaifosh et al.](https://doi.org/10.1038/s41586-025-09255-w)</sub>
 
@@ -242,7 +251,7 @@ How this survey relates to neighboring surveys on egocentric vision, AI glasses,
 | :-- | :--: | :-- |
 | **[People with Visual Impairment Training Personal Object Recognizers: Feasibility and Challenges](https://doi.org/10.1145/3025453.3025899)**<br><sub>Kacorri et al.</sub> | CHI 2017 | [Paper](https://doi.org/10.1145/3025453.3025899) |
 
-### <a id="app-guidance"></a>II-C4. Procedural and Spatial Guidance
+#### <a id="app-guidance"></a>II-C4. Procedural and Spatial Guidance
 
 <sub>**Also discussed here:** [HoloAssist](https://doi.org/10.1109/iccv51070.2023.01854) · [Assembly101](https://doi.org/10.1109/cvpr52688.2022.02042) · [Keep It in Mind](https://arxiv.org/abs/2606.15200)</sub>
 
@@ -251,7 +260,7 @@ How this survey relates to neighboring surveys on egocentric vision, AI glasses,
 | **[CaptainCook4D: A Dataset for Understanding Errors in Procedural Activities](https://doi.org/10.52202/079017-4307)**<br><sub>Peddi et al.</sub> | NeurIPS D&B 2024 | [![arXiv](https://img.shields.io/badge/arXiv-2312.14556-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2312.14556) [Paper](https://doi.org/10.52202/079017-4307) |
 | **[Error Detection in Egocentric Procedural Task Videos](https://doi.org/10.1109/cvpr52733.2024.01765)**<br><sub>Lee et al.</sub> | CVPR 2024 | [Paper](https://doi.org/10.1109/cvpr52733.2024.01765) |
 
-### <a id="app-behavior"></a>II-C5. Behavioral Support and Longitudinal Interaction
+#### <a id="app-behavior"></a>II-C5. Behavioral Support and Longitudinal Interaction
 
 <sub>**Also discussed here:** [Personalized HeartSteps](https://doi.org/10.1145/3381007) · [Nahum-Shani et al.](https://doi.org/10.1007/s12160-016-9830-8) · [HorizonBench](https://arxiv.org/abs/2604.17283) · [Know Me, Respond to Me](https://arxiv.org/abs/2504.14225)</sub>
 
