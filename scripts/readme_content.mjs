@@ -2,6 +2,9 @@
 
 const REPO = 'fangzr/Awesome-AI-Glasses';
 const UPDATED = '2026-11-26';
+// Survey preprint on ResearchGate.
+const DOI = '10.13140/RG.2.2.33537.21606';
+const PAPER_URL = `https://doi.org/${DOI}`;
 
 export const FIGURES = {
   loop: {
@@ -162,7 +165,8 @@ export const HEADER = ({ nRefs, nCode }) => `<div id="top" align="center">
 
 ### First-Person Sensing, Memory, and Self-Evolution
 
-[![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b.svg?style=flat-square)](#citation)
+[![Paper](https://img.shields.io/badge/Paper-ResearchGate-00CCBB.svg?style=flat-square&logo=researchgate&logoColor=white)](${PAPER_URL})
+[![DOI](https://img.shields.io/badge/DOI-${DOI.replace('/', '%2F')}-1f6feb.svg?style=flat-square)](${PAPER_URL})
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![Papers](https://img.shields.io/badge/papers-${nRefs}-2b84d8.svg?style=flat-square)](#contents)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-a58cd8.svg?style=flat-square)](#contributing)
@@ -183,11 +187,12 @@ export const HEADER = ({ nRefs, nCode }) => `<div id="top" align="center">
 
 > If the glasses remember where you last put your keys, can they also learn when to remind you before you leave?
 
-This repository accompanies our survey **"AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution"**. It collects the **${nRefs} works** the survey discusses (${nCode} with linked code), organized chapter by chapter, together with the survey's figures and its comparison tables of surveys, products, memory systems, open platforms, datasets, and benchmarks.
+This repository accompanies our survey **["AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution"](${PAPER_URL})** (preprint on ResearchGate, DOI: [${DOI}](${PAPER_URL})). It collects the **${nRefs} works** the survey discusses (${nCode} with linked code), organized chapter by chapter, together with the survey's figures and its comparison tables of surveys, products, memory systems, open platforms, datasets, and benchmarks.
 
 ## <a id="news"></a>🔥 News
 
-- **[${UPDATED}]** Repository released with the full reference list, all eight figures, and the survey's comparison tables. The arXiv link will be added here once the preprint is online.
+- **[${UPDATED}]** Repository released with the full reference list, all eight figures, and the survey's comparison tables.
+- **[2026-11]** The survey preprint is available on [ResearchGate](${PAPER_URL}) (DOI: ${DOI}).
 
 ## <a id="overview"></a>📌 Overview
 
@@ -235,11 +240,15 @@ export const FOOTER = `## <a id="citation"></a>🖊️ Citation
 If you find this survey or repository useful, please cite:
 
 \`\`\`bibtex
-@article{fang2026aiglasses,
-  title   = {AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution},
-  author  = {Fang, Zhengru and Hu, Senkang and Zhu, Yaoyu and Liu, Zehao and Li, Chenxi and Wang, Xizhi and Tsoi, Ming Yu and Zhuang, Yufan and Li, Junlong and Guo, Yu and Zhao, Enqi and Zhu, Xuanrui and Fang, Yuguang and Zhang, Jun},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{fang2026aiglasses,
+  title     = {AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution},
+  author    = {Fang, Zhengru and Hu, Senkang and Zhu, Yaoyu and Liu, Zehao and Li, Chenxi and Wang, Xizhi and Tsoi, Ming Yu and Zhuang, Yufan and Li, Junlong and Guo, Yu and Zhao, Enqi and Zhu, Xuanrui and Fang, Yuguang and Zhang, Jun},
+  year      = {2026},
+  month     = nov,
+  publisher = {ResearchGate},
+  note      = {Preprint},
+  doi       = {${DOI}},
+  url       = {${PAPER_URL}}
 }
 \`\`\`
 

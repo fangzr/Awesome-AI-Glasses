@@ -33,10 +33,15 @@ authors:
   - family-names: Zhang
     given-names: Jun
 preferred-citation:
-  type: article
+  type: generic
   title: "AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution"
-  journal: "arXiv preprint"
+  notes: "Preprint"
+  publisher:
+    name: ResearchGate
+  doi: "10.13140/RG.2.2.33537.21606"
+  url: "https://doi.org/10.13140/RG.2.2.33537.21606"
   year: 2026
+  month: 11
   authors:
     - family-names: Fang
       given-names: Zhengru

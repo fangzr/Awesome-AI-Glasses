@@ -4,7 +4,8 @@
 
 ### First-Person Sensing, Memory, and Self-Evolution
 
-[![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b.svg?style=flat-square)](#citation)
+[![Paper](https://img.shields.io/badge/Paper-ResearchGate-00CCBB.svg?style=flat-square&logo=researchgate&logoColor=white)](https://doi.org/10.13140/RG.2.2.33537.21606)
+[![DOI](https://img.shields.io/badge/DOI-10.13140%2FRG.2.2.33537.21606-1f6feb.svg?style=flat-square)](https://doi.org/10.13140/RG.2.2.33537.21606)
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![Papers](https://img.shields.io/badge/papers-336-2b84d8.svg?style=flat-square)](#contents)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-a58cd8.svg?style=flat-square)](#contributing)
@@ -25,11 +26,12 @@
 
 > If the glasses remember where you last put your keys, can they also learn when to remind you before you leave?
 
-This repository accompanies our survey **"AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution"**. It collects the **336 works** the survey discusses (76 with linked code), organized chapter by chapter, together with the survey's figures and its comparison tables of surveys, products, memory systems, open platforms, datasets, and benchmarks.
+This repository accompanies our survey **["AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution"](https://doi.org/10.13140/RG.2.2.33537.21606)** (preprint on ResearchGate, DOI: [10.13140/RG.2.2.33537.21606](https://doi.org/10.13140/RG.2.2.33537.21606)). It collects the **336 works** the survey discusses (76 with linked code), organized chapter by chapter, together with the survey's figures and its comparison tables of surveys, products, memory systems, open platforms, datasets, and benchmarks.
 
 ## <a id="news"></a>🔥 News
 
-- **[2026-11-26]** Repository released with the full reference list, all eight figures, and the survey's comparison tables. The arXiv link will be added here once the preprint is online.
+- **[2026-11-26]** Repository released with the full reference list, all eight figures, and the survey's comparison tables.
+- **[2026-11]** The survey preprint is available on [ResearchGate](https://doi.org/10.13140/RG.2.2.33537.21606) (DOI: 10.13140/RG.2.2.33537.21606).
 
 ## <a id="overview"></a>📌 Overview
 
@@ -973,11 +975,15 @@ Vendor documentation, specifications, and component datasheets cited in the surv
 If you find this survey or repository useful, please cite:
 
 ```bibtex
-@article{fang2026aiglasses,
-  title   = {AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution},
-  author  = {Fang, Zhengru and Hu, Senkang and Zhu, Yaoyu and Liu, Zehao and Li, Chenxi and Wang, Xizhi and Tsoi, Ming Yu and Zhuang, Yufan and Li, Junlong and Guo, Yu and Zhao, Enqi and Zhu, Xuanrui and Fang, Yuguang and Zhang, Jun},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{fang2026aiglasses,
+  title     = {AI Glasses as Lifelong Assistants: First-Person Sensing, Memory, and Self-Evolution},
+  author    = {Fang, Zhengru and Hu, Senkang and Zhu, Yaoyu and Liu, Zehao and Li, Chenxi and Wang, Xizhi and Tsoi, Ming Yu and Zhuang, Yufan and Li, Junlong and Guo, Yu and Zhao, Enqi and Zhu, Xuanrui and Fang, Yuguang and Zhang, Jun},
+  year      = {2026},
+  month     = nov,
+  publisher = {ResearchGate},
+  note      = {Preprint},
+  doi       = {10.13140/RG.2.2.33537.21606},
+  url       = {https://doi.org/10.13140/RG.2.2.33537.21606}
 }
 ```
 
